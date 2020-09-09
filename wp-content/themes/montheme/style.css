@@ -1,0 +1,66 @@
+/*
+Theme Name: Mon thème
+Version: 1.0
+Author: CharlouX
+Author URI: http://monsite.fr/
+Description: Ce thème a été développé lors de la formation Webforce3
+Tags: two-columns, blue, responsive
+Text Domain: montheme
+*/
+
+body{
+    color: wheat;
+    margin: 0;
+    background: radial-gradient(circle, rgba(85,10,85,1) 22%, rgba(13,108,13,1) 63%, rgba(0,0,0,1) 93%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: inline;
+}
+
+#menu-item-6{
+    margin-right: 8px;
+}
+
+.container{
+    display: flex;
+    padding: 8px;
+}
+
+.container main{
+    flex: 4;
+}
+
+.container aside{
+    flex: 1;
+}
+
+.widget{
+
+    background: radial-gradient(circle, rgba(2,0,36,1) 22%, rgba(7,63,140,1) 87%, rgba(112,7,14,1) 100%);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer{
+    display: flex;
+}
+
+.foot_widget{
+    flex: 1;    
+}
+
+.widget_ft{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
