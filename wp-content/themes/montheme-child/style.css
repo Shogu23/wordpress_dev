@@ -7,5 +7,20 @@ Template: montheme
 Author URI: http://monsite.fr/
 Description: Ce thème a été développé lors de la formation Webforce3
 Tags: two-columns, blue, responsive
-Text Domain: montheme
+Text Domain: monthemechild
 */
+
+#projets {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-right: 8px;
+}
+
+#projets article {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    overflow: hidden;
+}

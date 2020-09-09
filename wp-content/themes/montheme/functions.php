@@ -145,7 +145,7 @@ function montheme_options(WP_Customize_Manager $wp_customize){
         ]
     );
 
-    // Changer couleur titre
+    // Changer font titre
     $wp_customize->add_setting(
         'titles_font',
         [
